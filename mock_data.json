@@ -1,0 +1,18 @@
+{
+    "marketing_data": [
+        {"Campaign Name": "Spring into Fitness", "Impressions": 42000, "Clicks": 6800, "ROI": 11.2, "Top Segment": "Returning Users"},
+        {"Campaign Name": "Back on the Bike", "Impressions": 35500, "Clicks": 5100, "ROI": 9.4, "Top Segment": "Lapsed Members"}
+    ],
+    "fitness_data": [
+        {"User": "Alex_01", "Date": "2023-01-01", "Cadence": 85, "Resistance": 45, "Output": 310.5},
+        {"User": "Jamie_02", "Date": "2023-01-02", "Cadence": 78, "Resistance": 42, "Output": 295.2}
+    ],
+    "security_logs": [
+        {"User": "user_001", "Timestamp": "2024-04-01 08:45:12", "IP Location": "New York, NY", "Login Type": "Normal"},
+        {"User": "user_003", "Timestamp": "2024-04-02 03:02:11", "IP Location": "Moscow, Russia", "Login Type": "Suspicious"}
+    ],
+    "order_records": [
+        {"Order ID": "ORD-1001", "Product": "Peloton Bike+", "Carrier": "FedEx", "ETA": "2024-05-08", "Status": "In Transit"},
+        {"Order ID": "ORD-1002", "Product": "Peloton Tread", "Carrier": "UPS", "ETA": "2024-05-10", "Status": "Delivered"}
+    ]
+} 
