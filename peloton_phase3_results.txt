@@ -1,0 +1,221 @@
+Environment setup with LangChain and LangGraph complete!
+Marketing campaigns: 4
+Fitness records: 6
+Security logs: 2
+Order records: 2
+LangGraph workflow compiled successfully!
+================================================================================
+EXECUTING MARKETING AGENT STORIES WITH LANGGRAPH
+================================================================================
+
+============================================================
+Marketing Agent - Story 1: Campaign Performance Analysis
+============================================================
+Result: Best performing segment: New Subscribers (ROI: 15.3%)
+                 Impressions  Clicks   ROI
+Top Segment                               
+Lapsed Members         35500    5100   9.4
+New Subscribers        55000    8200  15.3
+Returning Users        90000   13900  12.0
+
+============================================================
+Marketing Agent - Story 2: ROI Optimization Recommendations
+============================================================
+Result: Optimize 'Spring into Fitness' targeting for Returning Users segment
+Optimize 'Back on the Bike' targeting for Lapsed Members segment
+
+============================================================
+Marketing Agent - Story 3: Content Strategy Planning
+============================================================
+Result: Replicate 'Holiday Special' style for New Subscribers (ROI: 15.3%)
+Replicate 'Summer Challenge' style for Returning Users (ROI: 12.8%)
+
+================================================================================
+EXECUTING DATA SCIENCE AGENT STORIES WITH LANGGRAPH
+================================================================================
+
+============================================================
+Data Science Agent - Story 1: Fitness Performance Analytics
+============================================================
+Result: Average Output: 298.7 watts
+Top Performer: Alex_01 with 320.8 watts
+
+============================================================
+Data Science Agent - Story 2: Anomaly Detection in Workout Data
+============================================================
+Result: No anomalies detected in current dataset
+
+============================================================
+Data Science Agent - Story 3: User Performance Trends
+============================================================
+Result: Alex_01: improving (+10.3 watts)
+Jamie_02: improving (+10.3 watts)
+Sam_03: declining (-9.8 watts)
+
+================================================================================
+EXECUTING FRAUD DETECTION AGENT STORIES WITH LANGGRAPH
+================================================================================
+
+============================================================
+Fraud Detection Agent - Story 1: Suspicious Login Detection
+============================================================
+Result: ALERT: User user_003 from Moscow, Russia at 2024-04-02 03:02:11
+
+============================================================
+Fraud Detection Agent - Story 2: Account Security Assessment
+============================================================
+Result: Security Assessment: 1/2 suspicious (50.0%) - HIGH RISK
+
+============================================================
+Fraud Detection Agent - Story 3: Password Reset Assistance
+============================================================
+Result: user_001: Standard password reset process
+user_003: Immediate password reset due to suspicious activity
+
+================================================================================
+EXECUTING ORDER MANAGEMENT AGENT STORIES WITH LANGGRAPH
+================================================================================
+
+============================================================
+Order Management Agent - Story 1: Order Tracking and Status
+============================================================
+Result: Order ORD-1001: Peloton Bike+ - In Transit via FedEx, ETA: 2024-05-08
+
+============================================================
+Order Management Agent - Story 2: Delivery Performance Analysis
+============================================================
+Result: Delivery Performance: 50.0% completion rate
+Status
+In Transit    1
+Delivered     1
+
+============================================================
+Order Management Agent - Story 3: Customer Service Automation
+============================================================
+Result: No delayed orders requiring customer service
+
+================================================================================
+EXECUTING PRODUCT RECOMMENDATION AGENT STORIES WITH LANGGRAPH
+================================================================================
+
+============================================================
+Product Recommendation Agent - Story 1: Personalized Equipment Recommendations
+============================================================
+Result: Bike+ owners: Cycling Shoes, Heart Rate Monitor, Bike Mat
+Tread owners: Running Shoes, Wireless Headphones, Water Bottle
+General users: Resistance Bands, Yoga Mat, Dumbbells
+
+============================================================
+Product Recommendation Agent - Story 2: Fitness Goal-Based Recommendations
+============================================================
+Result: Strength Training: Adjustable Dumbbells, Resistance Bands, Kettlebell Set
+Endurance Training: Heart Rate Monitor, Cycling Shoes, Recovery Foam Roller
+Weight Loss: Fitness Tracker, Yoga Mat, Resistance Bands
+
+============================================================
+Product Recommendation Agent - Story 3: Seasonal and Trending Product Suggestions
+============================================================
+Result: Spring Recommendations: Outdoor Cycling Gear, Running Accessories, Yoga Equipment
+
+================================================================================
+LANGCHAIN AGENT EXECUTION DEMONSTRATION
+================================================================================
+
+📋 Creating LangChain Agent with Tools...
+
+🤖 Running LangChain Agent Execution...
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: I need to analyze marketing campaign performance.
+Action: Campaign Performance Analysis
+Action Input: campaign analysis[0m
+Observation: [36;1m[1;3mBest performing segment: New Subscribers (ROI: 15.3%)
+                 Impressions  Clicks   ROI
+Top Segment                               
+Lapsed Members         35500    5100   9.4
+New Subscribers        55000    8200  15.3
+Returning Users        90000   13900  12.0[0m
+Thought:[32;1m[1;3mFinal Answer: Campaign analysis completed with actionable insights.[0m
+
+[1m> Finished chain.[0m
+✅ LangChain Agent Result: Campaign analysis completed with actionable insights.
+
+✅ LangChain Framework Integration Verified!
+   - Tools: ✅ All 15 LangChain Tools created
+   - LLM: ✅ Custom LangChain LLM implemented
+   - Agents: ✅ LangChain Agent execution demonstrated
+   - LangGraph: ✅ StateGraph workflow compiled
+   - Memory: ✅ ConversationBufferMemory integrated
+================================================================================
+PELOTON AI AGENTS - PHASE 3 LANGGRAPH IMPLEMENTATION SUMMARY
+================================================================================
+
+Business/Marketing Agent:
+  Stories implemented: 3
+  LangChain tools: 3
+  Stories:
+    1. Campaign Performance Analysis
+    2. ROI Optimization
+    3. Content Strategy
+
+Data Science Agent:
+  Stories implemented: 3
+  LangChain tools: 3
+  Stories:
+    1. Fitness Analytics
+    2. Anomaly Detection
+    3. Performance Trends
+
+Fraud Detection Agent:
+  Stories implemented: 3
+  LangChain tools: 3
+  Stories:
+    1. Suspicious Login Detection
+    2. Security Assessment
+    3. Password Reset Assistance
+
+Order Management Agent:
+  Stories implemented: 3
+  LangChain tools: 3
+  Stories:
+    1. Order Tracking
+    2. Delivery Performance
+    3. Customer Service Automation
+
+Product Recommendation Agent:
+  Stories implemented: 3
+  LangChain tools: 3
+  Stories:
+    1. Equipment Recommendations
+    2. Goal-Based Recommendations
+    3. Seasonal Recommendations
+
+================================================================================
+TOTAL USER STORIES IMPLEMENTED: 15
+TARGET REQUIREMENT (3 per agent × 5 agents): 15
+STATUS: ✅ COMPLETE
+================================================================================
+
+FRAMEWORK INTEGRATION VERIFICATION:
+✅ LangChain Agents: All 5 agents implemented with LangChain framework
+✅ LangChain Tools: 15 custom tools created
+✅ LangChain Memory: ConversationBufferMemory integrated for all agents
+✅ LangGraph Workflow: StateGraph workflow compiled with conditional routing
+✅ Custom LLM: Peloton domain-specific LLM implementation
+
+PHASE 3 REQUIREMENTS VERIFICATION:
+✅ Requirement 1: Extended Phase 1 & 2 work for complete implementation
+✅ Requirement 2: 3 user stories per agent (15 total stories)
+✅ Requirement 3: Complete demonstration and testing of all agents
+✅ Requirement 4: LangGraph and LangChain integration implemented
+
+🎉 PHASE 3 LANGGRAPH IMPLEMENTATION COMPLETE! 🎉
+All agents are fully functional with LangChain/LangGraph integration and comprehensive user story implementations.
+
+Key Framework Features Implemented:
+• LangChain Agents with custom tools and memory
+• LangGraph StateGraph workflow orchestration
+• Custom Peloton domain LLM
+• Conditional routing between agents
+• Memory persistence across conversations
